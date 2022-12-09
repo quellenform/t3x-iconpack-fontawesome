@@ -1,0 +1,205 @@
+iconpack:
+  title: "Font Awesome Icons 5"
+  key: "fa5"
+  version: "5.15.4"
+  url: "https://fontawesome.com/"
+  logo: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/Logo.svg"
+
+  stylesEnabled: "regular,solid,brands"
+
+  renderTypes:
+    _default:
+      _default:
+        prefix: "fa-"
+      regular:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.regular"
+        attributes:
+          class: "far"
+      solid:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.solid"
+        attributes:
+          class: "fas"
+      brands:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.brands"
+        attributes:
+          class: "fab"
+
+    webfont:
+      _default:
+        css:
+          shared: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/css/fontawesome.min.css"
+        attributes:
+          aria-hidden: "true"
+          role: "img"
+      regular:
+        css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/css/regular.min.css"
+      solid:
+        css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/css/solid.min.css"
+      brands:
+        css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/css/brands.min.css"
+
+    svg:
+      _default:
+        css:
+          backend: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
+          ckeditor: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
+          frontend: "EXT:iconpack_fontawesome/Resources/Public/Css/fa5svg.css"
+        attributes:
+          fill: "currentColor"
+      regular:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/regular/"
+      solid:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/solid/"
+      brands:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/brands/"
+
+    svgSprite:
+      _default:
+        css:
+          backend: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
+          ckeditor: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
+          frontend: "EXT:iconpack_fontawesome/Resources/Public/Css/fa5svg.css"
+        attributes:
+          fill: "currentColor"
+          role: "img"
+      regular:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/sprites/regular.svg"
+      solid:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/sprites/solid.svg"
+      brands:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/sprites/brands.svg"
+
+    svgInline:
+      _default:
+        css:
+          backend: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
+          ckeditor: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
+          frontend: "EXT:iconpack_fontawesome/Resources/Public/Css/fa5svg.css"
+        attributes:
+          fill: "currentColor"
+          role: "img"
+      regular:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/regular/"
+      solid:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/solid/"
+      brands:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/brands/"
+
+    svgJs:
+      regular:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/js/regular.js"
+      solid:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/js/solid.js"
+      brands:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/js/brands.js"
+
+  options:
+    size:
+      type: "select"
+      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.size"
+      values:
+        xs:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.xs"
+          attributes:
+            class: "fa-xs"
+        sm:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.sm"
+          attributes:
+            class: "fa-sm"
+        lg:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.lg"
+          attributes:
+            class: "fa-lg"
+        1x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.1x"
+          attributes:
+            class: "fa-1x"
+        2x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.2x"
+          attributes:
+            class: "fa-2x"
+        3x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.3x"
+          attributes:
+            class: "fa-3x"
+        4x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.4x"
+          attributes:
+            class: "fa-4x"
+        5x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.5x"
+          attributes:
+            class: "fa-5x"
+        6x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.6x"
+          attributes:
+            class: "fa-6x"
+        7x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.7x"
+          attributes:
+            class: "fa-7x"
+        8x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.8x"
+          attributes:
+            class: "fa-8x"
+        9x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.9x"
+          attributes:
+            class: "fa-9x"
+        10x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.10x"
+          attributes:
+            class: "fa-10x"
+    decoration:
+      type: "select"
+      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.decoration"
+      values:
+        border:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:decoration.border"
+          attributes:
+            class: "fa-border"
+    transform:
+      type: "select"
+      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.transform"
+      values:
+        r90:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.90"
+          attributes:
+            class: "fa-rotate-90"
+        r180:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.180"
+          attributes:
+            class: "fa-rotate-180"
+        r270:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.270"
+          attributes:
+            class: "fa-rotate-270"
+        fx:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flipHorizontal"
+          attributes:
+            class: "fa-flip-horizontal"
+        fy:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flipVertical"
+          attributes:
+            class: "fa-flip-vertical"
+        fxy:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flipBoth"
+          attributes:
+            class: "fa-flip-both"
+        spin:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.spin"
+          attributes:
+            class: "fa-spin"
+        pulse:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.pulse"
+          attributes:
+            class: "fa-pulse"
+    fixed:
+      type: "checkbox"
+      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.fixed"
+      attributes:
+        class: "fa-fw"
+
+  categories: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/metadata/categories.yml"
+
+  icons: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/metadata/icons.yml"

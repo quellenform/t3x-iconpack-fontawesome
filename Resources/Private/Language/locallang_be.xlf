@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:iconpack_fontawesome/Resources/Private/Language/locallang.xlf" date="2021-09-19T13:57:00Z" product-name="iconpack_fontawesome">
+		<header />
+		<body>
+			<trans-unit id="style.solid" resname="style.solid">
+				<source>Solid</source>
+			</trans-unit>
+			<trans-unit id="style.regular" resname="style.regular">
+				<source>Regular</source>
+			</trans-unit>
+			<trans-unit id="style.light" resname="style.light">
+				<source>Light</source>
+			</trans-unit>
+			<trans-unit id="style.duotone" resname="style.duotone">
+				<source>Duotone</source>
+			</trans-unit>
+			<trans-unit id="style.brands" resname="style.brands">
+				<source>Brands</source>
+			</trans-unit>
+
+			<trans-unit id="cat.accessibility" resname="cat.accessibility">
+				<source>Accessibility</source>
+			</trans-unit>
+			<trans-unit id="cat.alert" resname="cat.alert">
+				<source>Alert</source>
+			</trans-unit>
+			<trans-unit id="cat.alphabet" resname="cat.alphabet">
+				<source>Alphabet</source>
+			</trans-unit>
+			<trans-unit id="cat.animals" resname="cat.animals">
+				<source>Animals</source>
+			</trans-unit>
+			<trans-unit id="cat.arrows" resname="cat.arrows">
+				<source>Arrows</source>
+			</trans-unit>
+			<trans-unit id="cat.astronomy" resname="cat.astronomy">
+				<source>Astronomy</source>
+			</trans-unit>
+			<trans-unit id="cat.audio-video" resname="cat.audio-video">
+				<source>Audio + Video</source>
+			</trans-unit>
+			<trans-unit id="cat.automotive" resname="cat.automotive">
+				<source>Automotive</source>
+			</trans-unit>
+			<trans-unit id="cat.autumn" resname="cat.autumn">
+				<source>Autumn</source>
+			</trans-unit>
+			<trans-unit id="cat.beverage" resname="cat.beverage">
+				<source>Beverage</source>
+			</trans-unit>
+			<trans-unit id="cat.buildings" resname="cat.buildings">
+				<source>Buildings</source>
+			</trans-unit>
+			<trans-unit id="cat.business" resname="cat.business">
+				<source>Business</source>
+			</trans-unit>
+			<trans-unit id="cat.camping" resname="cat.camping">
+				<source>Camping</source>
+			</trans-unit>
+			<trans-unit id="cat.charity" resname="cat.charity">
+				<source>Charity</source>
+			</trans-unit>
+			<trans-unit id="cat.charts-diagrams" resname="cat.charts-diagrams">
+				<source>Charts + Diagrams</source>
+			</trans-unit>
+			<trans-unit id="cat.chat" resname="cat.chat">
+				<source>Chat</source>
+			</trans-unit>
+			<trans-unit id="cat.chess" resname="cat.chess">
+				<source>Chess</source>
+			</trans-unit>
+			<trans-unit id="cat.childhood" resname="cat.childhood">
+				<source>Childhood</source>
+			</trans-unit>
+			<trans-unit id="cat.clothing" resname="cat.clothing">
+				<source>Clothing</source>
+			</trans-unit>
+			<trans-unit id="cat.clothing-fashion" resname="cat.clothing-fashion">
+				<source>Clothing + Fashion</source>
+			</trans-unit>
+			<trans-unit id="cat.code" resname="cat.code">
+				<source>Code</source>
+			</trans-unit>
+			<trans-unit id="cat.coding" resname="cat.coding">
+				<source>Coding</source>
+			</trans-unit>
+			<trans-unit id="cat.communication" resname="cat.communication">
+				<source>Communication</source>
+			</trans-unit>
+			<trans-unit id="cat.computers" resname="cat.computers">
+				<source>Computers</source>
+			</trans-unit>
+			<trans-unit id="cat.connectivity" resname="cat.connectivity">
+				<source>Connectivity</source>
+			</trans-unit>
+			<trans-unit id="cat.construction" resname="cat.construction">
+				<source>Construction</source>
+			</trans-unit>
+			<trans-unit id="cat.currency" resname="cat.currency">
+				<source>Currency</source>
+			</trans-unit>
+			<trans-unit id="cat.date-time" resname="cat.date-time">
+				<source>Date + Time</source>
+			</trans-unit>
+			<trans-unit id="cat.design" resname="cat.design">
+				<source>Design</source>
+			</trans-unit>
+			<trans-unit id="cat.devices-hardware" resname="cat.devices-hardware">
+				<source>Devices + Hardware</source>
+			</trans-unit>
+			<trans-unit id="cat.disaster" resname="cat.disaster">
+				<source>Disaster + Crisis</source>
+			</trans-unit>
+			<trans-unit id="cat.editing" resname="cat.editing">
+				<source>Editing</source>
+			</trans-unit>
+			<trans-unit id="cat.editors" resname="cat.editors">
+				<source>Editors</source>
+			</trans-unit>
+			<trans-unit id="cat.education" resname="cat.education">
+				<source>Education</source>
+			</trans-unit>
+			<trans-unit id="cat.emoji" resname="cat.emoji">
+				<source>Emoji</source>
+			</trans-unit>
+			<trans-unit id="cat.energy" resname="cat.energy">
+				<source>Energy</source>
+			</trans-unit>
+			<trans-unit id="cat.files" resname="cat.files">
+				<source>Files</source>
+			</trans-unit>
+			<trans-unit id="cat.film-video" resname="cat.film-video">
+				<source>Film + Video</source>
+			</trans-unit>
+			<trans-unit id="cat.finance" resname="cat.finance">
+				<source>Finance</source>
+			</trans-unit>
+			<trans-unit id="cat.fitness" resname="cat.fitness">
+				<source>Fitness</source>
+			</trans-unit>
+			<trans-unit id="cat.food" resname="cat.food">
+				<source>Food</source>
+			</trans-unit>
+			<trans-unit id="cat.food-beverage" resname="cat.food-beverage">
+				<source>Food + Beverage</source>
+			</trans-unit>
+			<trans-unit id="cat.fruit-vegetable" resname="cat.fruit-vegetable">
+				<source>Fruit + Vegetable</source>
+			</trans-unit>
+			<trans-unit id="cat.fruit-vegetables" resname="cat.fruit-vegetables">
+				<source>Fruit + Vegetable</source>
+			</trans-unit>
+			<trans-unit id="cat.games" resname="cat.games">
+				<source>Games</source>
+			</trans-unit>
+			<trans-unit id="cat.gaming" resname="cat.gaming">
+				<source>Gaming</source>
+			</trans-unit>
+			<trans-unit id="cat.gaming-tabletop" resname="cat.gaming-tabletop">
+				<source>Gaming + Tabletop</source>
+			</trans-unit>
+			<trans-unit id="cat.gender" resname="cat.gender">
+				<source>Gender</source>
+			</trans-unit>
+			<trans-unit id="cat.halloween" resname="cat.halloween">
+				<source>Halloween</source>
+			</trans-unit>
+			<trans-unit id="cat.hands" resname="cat.hands">
+				<source>Hands</source>
+			</trans-unit>
+			<trans-unit id="cat.health" resname="cat.health">
+				<source>Health</source>
+			</trans-unit>
+			<trans-unit id="cat.holiday" resname="cat.holiday">
+				<source>Holiday</source>
+			</trans-unit>
+			<trans-unit id="cat.holidays" resname="cat.holidays">
+				<source>Holidays</source>
+			</trans-unit>
+			<trans-unit id="cat.hotel" resname="cat.hotel">
+				<source>Hotel</source>
+			</trans-unit>
+			<trans-unit id="cat.household" resname="cat.household">
+				<source>Household</source>
+			</trans-unit>
+			<trans-unit id="cat.humanitarian" resname="cat.humanitarian">
+				<source>Humanitarian</source>
+			</trans-unit>
+			<trans-unit id="cat.images" resname="cat.images">
+				<source>Images</source>
+			</trans-unit>
+			<trans-unit id="cat.interfaces" resname="cat.interfaces">
+				<source>Interfaces</source>
+			</trans-unit>
+			<trans-unit id="cat.logistics" resname="cat.logistics">
+				<source>Logistics</source>
+			</trans-unit>
+			<trans-unit id="cat.maps" resname="cat.maps">
+				<source>Maps</source>
+			</trans-unit>
+			<trans-unit id="cat.maritime" resname="cat.maritime">
+				<source>Maritime</source>
+			</trans-unit>
+			<trans-unit id="cat.marketing" resname="cat.marketing">
+				<source>Marketing</source>
+			</trans-unit>
+			<trans-unit id="cat.mathematics" resname="cat.mathematics">
+				<source>Mathematics</source>
+			</trans-unit>
+			<trans-unit id="cat.media-playback" resname="cat.media-playback">
+				<source>Media Playback</source>
+			</trans-unit>
+			<trans-unit id="cat.medical" resname="cat.medical">
+				<source>Medical</source>
+			</trans-unit>
+			<trans-unit id="cat.medical-health" resname="cat.medical-health">
+				<source>Medical + Health</source>
+			</trans-unit>
+			<trans-unit id="cat.money" resname="cat.money">
+				<source>Money</source>
+			</trans-unit>
+			<trans-unit id="cat.moving" resname="cat.moving">
+				<source>Moving</source>
+			</trans-unit>
+			<trans-unit id="cat.music" resname="cat.music">
+				<source>Music</source>
+			</trans-unit>
+			<trans-unit id="cat.music-audio" resname="cat.music-audio">
+				<source>Music + Audio</source>
+			</trans-unit>
+			<trans-unit id="cat.nature" resname="cat.nature">
+				<source>Nature</source>
+			</trans-unit>
+			<trans-unit id="cat.numbers" resname="cat.numbers">
+				<source>Numbers</source>
+			</trans-unit>
+			<trans-unit id="cat.objects" resname="cat.objects">
+				<source>Objects</source>
+			</trans-unit>
+			<trans-unit id="cat.payments-shopping" resname="cat.payments-shopping">
+				<source>Payments + Shopping</source>
+			</trans-unit>
+			<trans-unit id="cat.pharmacy" resname="cat.pharmacy">
+				<source>Pharmacy</source>
+			</trans-unit>
+			<trans-unit id="cat.photos-images" resname="cat.photos-images">
+				<source>Photos + Images</source>
+			</trans-unit>
+			<trans-unit id="cat.political" resname="cat.political">
+				<source>Political</source>
+			</trans-unit>
+			<trans-unit id="cat.punctuation-symbols" resname="cat.punctuation-symbols">
+				<source>Punctuation + Symbols</source>
+			</trans-unit>
+			<trans-unit id="cat.religion" resname="cat.religion">
+				<source>Religion</source>
+			</trans-unit>
+			<trans-unit id="cat.science" resname="cat.science">
+				<source>Science</source>
+			</trans-unit>
+			<trans-unit id="cat.science-fiction" resname="cat.science-fiction">
+				<source>Science Fiction</source>
+			</trans-unit>
+			<trans-unit id="cat.security" resname="cat.security">
+				<source>Security</source>
+			</trans-unit>
+			<trans-unit id="cat.shapes" resname="cat.shapes">
+				<source>Shapes</source>
+			</trans-unit>
+			<trans-unit id="cat.shopping" resname="cat.shopping">
+				<source>Shopping</source>
+			</trans-unit>
+			<trans-unit id="cat.social" resname="cat.social">
+				<source>Social</source>
+			</trans-unit>
+			<trans-unit id="cat.spinners" resname="cat.spinners">
+				<source>Spinners</source>
+			</trans-unit>
+			<trans-unit id="cat.sports" resname="cat.sports">
+				<source>Sports</source>
+			</trans-unit>
+			<trans-unit id="cat.sports-fitness" resname="cat.sports-fitness">
+				<source>Sports + Fitness</source>
+			</trans-unit>
+			<trans-unit id="cat.spring" resname="cat.spring">
+				<source>Spring</source>
+			</trans-unit>
+			<trans-unit id="cat.status" resname="cat.status">
+				<source>Status</source>
+			</trans-unit>
+			<trans-unit id="cat.summer" resname="cat.summer">
+				<source>Summer</source>
+			</trans-unit>
+			<trans-unit id="cat.text-formatting" resname="cat.text-formatting">
+				<source>Text Formatting</source>
+			</trans-unit>
+			<trans-unit id="cat.time" resname="cat.time">
+				<source>Time</source>
+			</trans-unit>
+			<trans-unit id="cat.toggle" resname="cat.toggle">
+				<source>Toggle</source>
+			</trans-unit>
+			<trans-unit id="cat.transportation" resname="cat.transportation">
+				<source>Transportation</source>
+			</trans-unit>
+			<trans-unit id="cat.travel" resname="cat.travel">
+				<source>Travel</source>
+			</trans-unit>
+			<trans-unit id="cat.travel-hotel" resname="cat.travel-hotel">
+				<source>Travel + Hotel</source>
+			</trans-unit>
+			<trans-unit id="cat.users-people" resname="cat.users-people">
+				<source>Users + People</source>
+			</trans-unit>
+			<trans-unit id="cat.vehicles" resname="cat.vehicles">
+				<source>Vehicles</source>
+			</trans-unit>
+			<trans-unit id="cat.weather" resname="cat.weather">
+				<source>Weather</source>
+			</trans-unit>
+			<trans-unit id="cat.winter" resname="cat.winter">
+				<source>Winter</source>
+			</trans-unit>
+			<trans-unit id="cat.writing" resname="cat.writing">
+				<source>Writing</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

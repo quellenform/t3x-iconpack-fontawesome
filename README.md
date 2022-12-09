@@ -1,3 +1,6 @@
+[![TYPO3](https://img.shields.io/badge/TYPO3-iconpack-%23f49700?style=for-the-badge)](https://extensions.typo3.org/extension/iconpack/)
+[![Latest Stable Version](https://img.shields.io/packagist/v/quellenform/t3x-iconpack-fontawesome?style=for-the-badge)](https://packagist.org/packages/quellenform/t3x-iconpack-fontawesome)
+
 # Font Awesome for TYPO3
 
 TYPO3 CMS Extension "iconpack_fontawesome"
@@ -24,13 +27,13 @@ The following versions are included in this extension, and can be selected via t
 
 This extension contains an icon set of another author. Please note the license terms and conditions for the use of the icon set.
 
-| Name | *Font Awesome Free* |
-|:--|:--|
-| Type | SVG, SVG-Sprite, Webfont |
-| Latest version | *6.2.1-free* |
-| Source | https://fontawesome.com |
-| Icons license | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| Font license | SIL OFL 1.1 License |
-| Author | Fonticons, Inc. |
+| Name           | *Font Awesome Free*                                       |
+| :------------- | :-------------------------------------------------------- |
+| Type           | SVG, SVG-Sprite, Webfont                                  |
+| Latest version | *6.2.1-free*                                              |
+| Source         | https://fontawesome.com                                   |
+| Icons license  | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Font license   | SIL OFL 1.1 License                                       |
+| Author         | Fonticons, Inc.                                           |
 
 *All brand icons are copyright/trademarks of their respective owners.*

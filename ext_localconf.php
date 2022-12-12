@@ -7,16 +7,13 @@ if (\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('iconpack')) {
         \TYPO3\CMS\Core\Configuration\ExtensionConfiguration::class
     )->get('iconpack_fontawesome');
 
-    $configurationClass = null;
-    //if ((int) $extConf['version'] !== 4) {
-    //    $configurationClass = \Quellenform\IconpackFontawesome\Configuration\IconpackFontawesomeConfiguration::class;
-    //}
-
     \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
         \Quellenform\Iconpack\IconpackRegistry::class
     )->registerIconpack(
         'EXT:iconpack_fontawesome/Configuration/Iconpack/FontAwesome' . $extConf['version'] . '.yaml',
-        $extConf['configFile']
-        //$configurationClass
+        $extConf['configFile'],
+        intval($extConf['version']) !== 4
+            ? \Quellenform\IconpackFontawesome\Configuration\IconpackFontawesomeConfiguration::class
+            : null
     );
 }

@@ -2,7 +2,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Iconpack: Font Awesome Icons',
-    'description' => 'This Extension registers an Iconpack-Provider for `EXT:iconpack` which allows you to use the "Font Awesome Icons" in TYPO3.',
+    'description' => 'This Extension registers an Iconpack-Provider for EXT:iconpack which allows you to use the "Font Awesome Icons" in TYPO3.',
     'category' => 'fe',
     'state' => 'beta',
     'clearcacheonload' => true,

@@ -1,7 +1,7 @@
 {
   "name": "quellenform/t3x-iconpack-fontawesome",
   "type": "typo3-cms-extension",
-  "description": "This Extension registers an Iconpack-Provider for `EXT:iconpack` which allows you to use the \"Font Awesome Icons\" in TYPO3.",
+  "description": "This Extension registers an Iconpack-Provider for EXT:iconpack which allows you to use the \"Font Awesome Icons\" in TYPO3.",
   "keywords": [
     "TYPO3",
     "extension",
@@ -27,7 +27,7 @@
   "require": {
     "php": ">=7.4.0",
     "typo3/cms-core": "^10.4 || ^11",
-    "quellenform/t3x-iconpack": "^0.1 || @dev"
+    "quellenform/t3x-iconpack": "^0.2 || @dev"
   },
   "autoload": {
     "psr-4": {

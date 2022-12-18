@@ -5,20 +5,21 @@ iconpack:
   url: "https://fontawesome.com/"
   logo: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/Logo.svg"
 
-  stylesEnabled: "regular,solid,brands"
+  stylesEnabled: "solid,regular,brands"
 
   renderTypes:
+
     _default:
       _default:
         prefix: "fa-"
-      regular:
-        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.regular"
-        attributes:
-          class: "far"
       solid:
         label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.solid"
         attributes:
           class: "fas"
+      regular:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.regular"
+        attributes:
+          class: "far"
       brands:
         label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.brands"
         attributes:
@@ -31,10 +32,10 @@ iconpack:
         attributes:
           aria-hidden: "true"
           role: "img"
-      regular:
-        css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/css/regular.min.css"
       solid:
         css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/css/solid.min.css"
+      regular:
+        css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/css/regular.min.css"
       brands:
         css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/css/brands.min.css"
 
@@ -44,12 +45,10 @@ iconpack:
           backend: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
           ckeditor: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
           frontend: "EXT:iconpack_fontawesome/Resources/Public/Css/fa5svg.css"
-        attributes:
-          fill: "currentColor"
-      regular:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/regular/"
       solid:
         source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/solid/"
+      regular:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/regular/"
       brands:
         source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/brands/"
 
@@ -62,10 +61,10 @@ iconpack:
         attributes:
           fill: "currentColor"
           role: "img"
-      regular:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/sprites/regular.svg"
       solid:
         source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/sprites/solid.svg"
+      regular:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/sprites/regular.svg"
       brands:
         source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/sprites/brands.svg"
 
@@ -78,22 +77,15 @@ iconpack:
         attributes:
           fill: "currentColor"
           role: "img"
-      regular:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/regular/"
       solid:
         source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/solid/"
+      regular:
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/regular/"
       brands:
         source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/brands/"
 
-    svgJs:
-      regular:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/js/regular.js"
-      solid:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/js/solid.js"
-      brands:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/js/brands.js"
-
   options:
+
     size:
       type: "select"
       label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.size"
@@ -150,6 +142,7 @@ iconpack:
           label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.10x"
           attributes:
             class: "fa-10x"
+
     decoration:
       type: "select"
       label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.decoration"
@@ -158,6 +151,7 @@ iconpack:
           label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:decoration.border"
           attributes:
             class: "fa-border"
+
     transform:
       type: "select"
       label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.transform"
@@ -194,6 +188,7 @@ iconpack:
           label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.pulse"
           attributes:
             class: "fa-pulse"
+
     fixed:
       type: "checkbox"
       label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.fixed"

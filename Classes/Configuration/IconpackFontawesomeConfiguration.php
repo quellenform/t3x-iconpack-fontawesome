@@ -30,11 +30,9 @@ class IconpackFontawesomeConfiguration implements IconpackConfigurationInterface
      */
     public function configureIconpack(string $iconpackIdentifier, array $configuration): array
     {
-        if ($configuration['version'] !== '4.7' && is_array($configuration['categories'])) {
-            foreach ($configuration['categories'] as $key => $category) {
-                $configuration['categories'][$key]['label'] =
-                    'LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:cat.' . $key;
-            }
+        foreach ($configuration['categories'] as $key => $category) {
+            $configuration['categories'][$key]['label']
+                = 'LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:cat.' . $key;
         }
         return $configuration;
     }

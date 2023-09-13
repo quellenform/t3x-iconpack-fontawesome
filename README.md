@@ -12,7 +12,7 @@ This Extension registers an Iconpack-Provider for EXT:iconpack which allows you 
 
 The following versions are included in this extension, and can be selected via the TYPO3 backend:
 - *5.14.4-free*
-- *6.4.0-free*
+- *6.4.2-free*
 
 
 ## Installation/Configuration
@@ -38,7 +38,7 @@ This extension contains an icon set of another author. Please note the license t
 | Name           | *Font Awesome Free 6*                                     |
 | :------------- | :-------------------------------------------------------- |
 | Type           | SVG, SVG-Sprite, Webfont                                  |
-| Latest version | *6.4.0-free*                                              |
+| Latest version | *6.4.2-free*                                              |
 | Source         | https://fontawesome.com                                   |
 | Icons license  | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Font license   | SIL OFL 1.1 License                                       |

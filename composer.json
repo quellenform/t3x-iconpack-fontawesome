@@ -1,49 +1,53 @@
 {
-  "name": "quellenform/t3x-iconpack-fontawesome",
-  "type": "typo3-cms-extension",
-  "description": "This Extension registers an Iconpack-Provider for EXT:iconpack which allows you to use the \"Font Awesome Icons\" in TYPO3.",
-  "keywords": [
-    "TYPO3",
-    "extension",
-    "CKEditor",
-    "icons",
-    "iconfont",
-    "webfont"
-  ],
-  "license": [
-    "GPL-3.0-or-later"
-  ],
-  "homepage": "https://extensions.typo3.org/extension/iconpack_fontawesome",
-  "support": {
-    "source": "https://github.com/quellenform/t3x-iconpack-fontawesome",
-    "issues": "https://github.com/quellenform/t3x-iconpack-fontawesome/issues"
-  },
-  "authors": [{
-    "name": "Stephan Kellermayr",
-    "email": "typo3@quellenform.at",
-    "role": "Developer",
-    "homepage": "https://www.quellenform.at/"
-  }],
-  "require": {
-    "php": ">=7.4.0",
-    "typo3/cms-core": "^10.4 || ^11",
-    "quellenform/t3x-iconpack": "^0.2 || ^0.3"
-  },
-  "autoload": {
-    "psr-4": {
-      "Quellenform\\IconpackFontawesome\\": "Classes"
-    }
-  },
-  "replace": {
-    "typo3-ter/iconpack-fontawesome": "self.version"
-  },
-  "repositories": [{
-    "type": "composer",
-    "url": "https://composer.typo3.org/"
-  }],
-  "extra": {
-    "typo3/cms": {
-      "extension-key": "iconpack_fontawesome"
-    }
-  }
+	"name": "quellenform/t3x-iconpack-fontawesome",
+	"type": "typo3-cms-extension",
+	"description": "This Extension registers an Iconpack-Provider for EXT:iconpack which allows you to use the \"Font Awesome Icons\" in TYPO3.",
+	"keywords": [
+		"TYPO3",
+		"extension",
+		"CKEditor",
+		"icons",
+		"iconfont",
+		"webfont"
+	],
+	"license": [
+		"GPL-3.0-or-later"
+	],
+	"homepage": "https://extensions.typo3.org/extension/iconpack_fontawesome",
+	"support": {
+		"source": "https://github.com/quellenform/t3x-iconpack-fontawesome",
+		"issues": "https://github.com/quellenform/t3x-iconpack-fontawesome/issues"
+	},
+	"authors": [
+		{
+			"name": "Stephan Kellermayr",
+			"email": "typo3@quellenform.at",
+			"role": "Developer",
+			"homepage": "https://www.quellenform.at/"
+		}
+	],
+	"require": {
+		"php": ">=7.4.0",
+		"typo3/cms-core": ">=10.4 <13",
+		"quellenform/t3x-iconpack": ">=0.2 ^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Quellenform\\IconpackFontawesome\\": "Classes"
+		}
+	},
+	"replace": {
+		"typo3-ter/iconpack-fontawesome": "self.version"
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.typo3.org/"
+		}
+	],
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "iconpack_fontawesome"
+		}
+	}
 }

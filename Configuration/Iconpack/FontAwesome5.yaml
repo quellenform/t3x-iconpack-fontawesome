@@ -42,9 +42,7 @@ iconpack:
     svg:
       _default:
         css:
-          backend: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
-          ckeditor: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
-          frontend: "EXT:iconpack_fontawesome/Resources/Public/Css/fa5svg.css"
+          shared: "EXT:iconpack_fontawesome/Resources/Public/Css/fa5-transforms.min.css"
       solid:
         source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-5.15.4-web/svgs/solid/"
       regular:
@@ -55,9 +53,7 @@ iconpack:
     svgSprite:
       _default:
         css:
-          backend: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
-          ckeditor: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
-          frontend: "EXT:iconpack_fontawesome/Resources/Public/Css/fa5svg.css"
+          shared: "EXT:iconpack_fontawesome/Resources/Public/Css/fa5-transforms.min.css"
         attributes:
           fill: "currentColor"
           role: "img"
@@ -71,9 +67,7 @@ iconpack:
     svgInline:
       _default:
         css:
-          backend: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
-          ckeditor: "EXT:iconpack_fontawesome/Resources/Public/Css/Backend/fa5svg.css"
-          frontend: "EXT:iconpack_fontawesome/Resources/Public/Css/fa5svg.css"
+          shared: "EXT:iconpack_fontawesome/Resources/Public/Css/fa5-transforms.min.css"
         attributes:
           fill: "currentColor"
           role: "img"

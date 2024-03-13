@@ -1,0 +1,320 @@
+# Example configuration for the Pro version of Font Awesome (customize it according to your requirements)
+#
+# Important:
+# Extract the files from "fontawesome-pro-6.5.1-web.zip" into your own extension (for example EXT:iconpack_fontawesome_pro),
+# adjust the paths of this configuration file accordingly, and enter the path to this configuration file in the
+# extension settings of EXT:iconpack_fontawesome:
+#
+# You can also save the icons directly in fileadmin, but unfortunately these are then not available in the RTE.
+#
+# The path to the configuration file in *Settings > Extension Configuration > iconpack_fontawesome > Configuration File*
+# is then entered as follows, for example: "EXT:iconpack_fontawesome_pro/Configuration/Iconpack/FontAwesome6pro.yaml"
+#
+
+iconpack:
+  title: "Font Awesome Icons 6 Pro"
+  key: "fa6"
+  version: "6.5.1"
+  url: "https://fontawesome.com/"
+  logo: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-6.5.1-web/Logo.svg"
+
+  stylesEnabled: "solid,regular,light,thin,duotone,brands,sharp-solid,sharp-regular,sharp-light,sharp-thin"
+
+  renderTypes:
+
+    _default:
+      _default:
+        prefix: "fa-"
+      solid:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.solid"
+        attributes:
+          class: "fas"
+      regular:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.regular"
+        attributes:
+          class: "far"
+      light:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.light"
+        attributes:
+          class: "fal"
+      thin:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.thin"
+        attributes:
+          class: "fat"
+      duotone:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.duotone"
+        attributes:
+          class: "fad"
+      brands:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.brands"
+        attributes:
+          class: "fab"
+      sharp-solid:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.sharp-solid"
+        attributes:
+          class: "fass"
+      sharp-regular:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.sharp-regular"
+        attributes:
+          class: "fasr"
+      sharp-light:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.sharp-light"
+        attributes:
+          class: "fasl"
+      sharp-thin:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.sharp-thin"
+        attributes:
+          class: "fast"
+
+    webfont:
+      _default:
+        css:
+          shared: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/css/fontawesome.min.css"
+        attributes:
+          aria-hidden: "true"
+          role: "img"
+      solid:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/css/solid.min.css"
+      regular:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/css/regular.min.css"
+      light:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/css/light.min.css"
+      thin:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/css/thin.min.css"
+      duotone:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/css/duotone.min.css"
+      brands:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/css/brands.min.css"
+      sharp-solid:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/css/sharp-solid.min.css"
+      sharp-regular:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/css/sharp-regular.min.css"
+      sharp-light:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/css/sharp-light.min.css"
+      sharp-thin:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/css/sharp-thin.min.css"
+
+    svg:
+      _default:
+        css:
+          shared: "EXT:iconpack_fontawesome/Resources/Public/Css/fa6-transforms.min.css"
+      solid:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/solid/"
+      regular:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/regular/"
+      light:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/light/"
+      thin:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/thin/"
+      duotone:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/duotone/"
+      brands:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/brands/"
+      sharp-solid:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/sharp-solid/"
+      sharp-regular:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/sharp-regular/"
+      sharp-light:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/sharp-light/"
+      sharp-thin:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/sharp-thin/"
+
+    svgSprite:
+      _default:
+        css:
+          shared: "EXT:iconpack_fontawesome/Resources/Public/Css/fa6-transforms.min.css"
+        attributes:
+          fill: "currentColor"
+          role: "img"
+      solid:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/sprites/solid.svg"
+      regular:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/sprites/regular.svg"
+      light:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/sprites/light.svg"
+      thin:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/sprites/thin.svg"
+      duotone:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/sprites/duotone.svg"
+      brands:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/sprites/brands.svg"
+      sharp-solid:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/sprites/sharp-solid.svg"
+      sharp-regular:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/sprites/sharp-regular.svg"
+      sharp-light:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/sprites/sharp-light.svg"
+      sharp-thin:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/sprites/sharp-thin.svg"
+
+    svgInline:
+      _default:
+        css:
+          shared: "EXT:iconpack_fontawesome/Resources/Public/Css/fa6-transforms.min.css"
+        attributes:
+          fill: "currentColor"
+          role: "img"
+      solid:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/solid/"
+      regular:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/regular/"
+      light:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/light/"
+      thin:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/thin/"
+      duotone:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/duotone/"
+      brands:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/brands/"
+      sharp-regular:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/sharp-regular/"
+      sharp-light:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/sharp-light/"
+      sharp-solid:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/sharp-solid/"
+      sharp-thin:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/svgs/sharp-thin/"
+
+  options:
+
+    size:
+      type: "select"
+      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.size"
+      values:
+        xs:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.xs"
+          attributes:
+            class: "fa-xs"
+        sm:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.sm"
+          attributes:
+            class: "fa-sm"
+        lg:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.lg"
+          attributes:
+            class: "fa-lg"
+        1x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.1x"
+          attributes:
+            class: "fa-1x"
+        2x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.2x"
+          attributes:
+            class: "fa-2x"
+        3x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.3x"
+          attributes:
+            class: "fa-3x"
+        4x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.4x"
+          attributes:
+            class: "fa-4x"
+        5x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.5x"
+          attributes:
+            class: "fa-5x"
+        6x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.6x"
+          attributes:
+            class: "fa-6x"
+        7x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.7x"
+          attributes:
+            class: "fa-7x"
+        8x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.8x"
+          attributes:
+            class: "fa-8x"
+        9x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.9x"
+          attributes:
+            class: "fa-9x"
+        10x:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.10x"
+          attributes:
+            class: "fa-10x"
+
+    decoration:
+      type: "select"
+      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.decoration"
+      values:
+        border:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:decoration.border"
+          attributes:
+            class: "fa-border"
+
+    transform:
+      type: "select"
+      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.transform"
+      values:
+        r90:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.90"
+          attributes:
+            class: "fa-rotate-90"
+        r180:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.180"
+          attributes:
+            class: "fa-rotate-180"
+        r270:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.270"
+          attributes:
+            class: "fa-rotate-270"
+        fx:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flipHorizontal"
+          attributes:
+            class: "fa-flip-horizontal"
+        fy:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flipVertical"
+          attributes:
+            class: "fa-flip-vertical"
+        fxy:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flipBoth"
+          attributes:
+            class: "fa-flip-both"
+        beat:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.beat"
+          attributes:
+            class: "fa-beat"
+        bounce:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.bounce"
+          attributes:
+            class: "fa-bounce"
+        fade:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.fade"
+          attributes:
+            class: "fa-fade"
+        beat-fade:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.beat-fade"
+          attributes:
+            class: "fa-beat-fade"
+        flip:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flip"
+          attributes:
+            class: "fa-flip"
+        shake:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.shake"
+          attributes:
+            class: "fa-shake"
+        spin:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.spin"
+          attributes:
+            class: "fa-spin"
+        spin-reverse:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.spin-reverse"
+          attributes:
+            class: "fa-spin fa-spin-reverse"
+        spin-pulse:
+          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.spin-pulse"
+          attributes:
+            class: "fa-spin-pulse"
+
+    fixed:
+      type: "checkbox"
+      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.fixed"
+      attributes:
+        class: "fa-fw"
+
+  # Disable default categories, because not all icons are listed there (brands!)
+  #categories: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/metadata/categories.yml"
+
+  icons: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.5.1-web/metadata/icons.yml"

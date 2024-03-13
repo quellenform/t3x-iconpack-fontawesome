@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:iconpack_fontawesome/Resources/Private/Language/locallang.xlf" date="2021-09-19T13:57:00Z" product-name="iconpack_fontawesome">
+	<file source-language="en" datatype="plaintext" original="EXT:iconpack_fontawesome/Resources/Private/Language/locallang.xlf" date="2024-03-13T13:44:00Z" product-name="iconpack_fontawesome">
 		<header />
 		<body>
 			<trans-unit id="style.solid" resname="style.solid">
@@ -12,11 +12,26 @@
 			<trans-unit id="style.light" resname="style.light">
 				<source>Light</source>
 			</trans-unit>
+			<trans-unit id="style.thin" resname="style.thin">
+				<source>Thin</source>
+			</trans-unit>
 			<trans-unit id="style.duotone" resname="style.duotone">
 				<source>Duotone</source>
 			</trans-unit>
 			<trans-unit id="style.brands" resname="style.brands">
 				<source>Brands</source>
+			</trans-unit>
+			<trans-unit id="style.sharp-solid" resname="style.sharp-solid">
+				<source>Sharp Solid</source>
+			</trans-unit>
+			<trans-unit id="style.sharp-regular" resname="style.sharp-regular">
+				<source>Sharp Regular</source>
+			</trans-unit>
+			<trans-unit id="style.sharp-light" resname="style.sharp-light">
+				<source>Sharp Light</source>
+			</trans-unit>
+			<trans-unit id="style.sharp-thin" resname="style.sharp-thin">
+				<source>Sharp Thin</source>
 			</trans-unit>
 
 			<trans-unit id="cat.accessibility" resname="cat.accessibility">

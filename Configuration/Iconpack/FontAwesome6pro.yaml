@@ -70,9 +70,6 @@ iconpack:
       _default:
         css:
           shared: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.7.2-web/css/fontawesome.min.css"
-        attributes:
-          aria-hidden: "true"
-          role: "img"
       solid:
         css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.7.2-web/css/solid.min.css"
       regular:
@@ -125,7 +122,6 @@ iconpack:
           shared: "EXT:iconpack_fontawesome/Resources/Public/Css/fa6-transforms.min.css"
         attributes:
           fill: "currentColor"
-          role: "img"
       solid:
         source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.7.2-web/sprites/solid.svg"
       regular:
@@ -153,7 +149,6 @@ iconpack:
           shared: "EXT:iconpack_fontawesome/Resources/Public/Css/fa6-transforms.min.css"
         attributes:
           fill: "currentColor"
-          role: "img"
       solid:
         source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.7.2-web/svgs/solid/"
       regular:

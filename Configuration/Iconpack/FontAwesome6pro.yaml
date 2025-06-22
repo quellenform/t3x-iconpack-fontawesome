@@ -92,9 +92,6 @@ iconpack:
         css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.7.2-web/css/sharp-thin.min.css"
 
     svg:
-      _default:
-        css:
-          shared: "EXT:iconpack_fontawesome/Resources/Public/Css/fa6-transforms.min.css"
       solid:
         source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.7.2-web/svgs/solid/"
       regular:
@@ -118,8 +115,6 @@ iconpack:
 
     svgSprite:
       _default:
-        css:
-          shared: "EXT:iconpack_fontawesome/Resources/Public/Css/fa6-transforms.min.css"
         attributes:
           fill: "currentColor"
       solid:
@@ -145,8 +140,6 @@ iconpack:
 
     svgInline:
       _default:
-        css:
-          shared: "EXT:iconpack_fontawesome/Resources/Public/Css/fa6-transforms.min.css"
         attributes:
           fill: "currentColor"
       solid:
@@ -169,145 +162,6 @@ iconpack:
         source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.7.2-web/svgs/sharp-solid/"
       sharp-thin:
         source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.7.2-web/svgs/sharp-thin/"
-
-  options:
-
-    size:
-      type: "select"
-      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.size"
-      values:
-        xs:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.xs"
-          attributes:
-            class: "fa-xs"
-        sm:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.sm"
-          attributes:
-            class: "fa-sm"
-        lg:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.lg"
-          attributes:
-            class: "fa-lg"
-        1x:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.1x"
-          attributes:
-            class: "fa-1x"
-        2x:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.2x"
-          attributes:
-            class: "fa-2x"
-        3x:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.3x"
-          attributes:
-            class: "fa-3x"
-        4x:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.4x"
-          attributes:
-            class: "fa-4x"
-        5x:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.5x"
-          attributes:
-            class: "fa-5x"
-        6x:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.6x"
-          attributes:
-            class: "fa-6x"
-        7x:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.7x"
-          attributes:
-            class: "fa-7x"
-        8x:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.8x"
-          attributes:
-            class: "fa-8x"
-        9x:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.9x"
-          attributes:
-            class: "fa-9x"
-        10x:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:size.10x"
-          attributes:
-            class: "fa-10x"
-
-    decoration:
-      type: "select"
-      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.decoration"
-      values:
-        border:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:decoration.border"
-          attributes:
-            class: "fa-border"
-
-    transform:
-      type: "select"
-      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.transform"
-      values:
-        r90:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.90"
-          attributes:
-            class: "fa-rotate-90"
-        r180:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.180"
-          attributes:
-            class: "fa-rotate-180"
-        r270:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.270"
-          attributes:
-            class: "fa-rotate-270"
-        fx:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flipHorizontal"
-          attributes:
-            class: "fa-flip-horizontal"
-        fy:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flipVertical"
-          attributes:
-            class: "fa-flip-vertical"
-        fxy:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flipBoth"
-          attributes:
-            class: "fa-flip-both"
-        beat:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.beat"
-          attributes:
-            class: "fa-beat"
-        bounce:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.bounce"
-          attributes:
-            class: "fa-bounce"
-        fade:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.fade"
-          attributes:
-            class: "fa-fade"
-        beat-fade:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.beat-fade"
-          attributes:
-            class: "fa-beat-fade"
-        flip:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.flip"
-          attributes:
-            class: "fa-flip"
-        shake:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.shake"
-          attributes:
-            class: "fa-shake"
-        spin:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.spin"
-          attributes:
-            class: "fa-spin"
-        spin-reverse:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.spin-reverse"
-          attributes:
-            class: "fa-spin fa-spin-reverse"
-        spin-pulse:
-          label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:transform.spin-pulse"
-          attributes:
-            class: "fa-spin-pulse"
-
-    fixed:
-      type: "checkbox"
-      label: "LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:label.fixed"
-      attributes:
-        class: "fa-fw"
 
   # Disable default categories, because not all icons are listed there (brands!)
   #categories: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-6.7.2-web/metadata/categories.yml"

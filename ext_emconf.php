@@ -13,7 +13,7 @@ $EM_CONF[$_EXTKEY] = [
     'constraints' => [
         'depends' => [
             'typo3' => '10.4.11-13.9.99',
-            'iconpack' => '0.2.0-1.99'
+            'iconpack' => '1.2.0-1.99'
         ],
         'conflicts' => [],
         'suggests' => []

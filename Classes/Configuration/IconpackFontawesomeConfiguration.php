@@ -14,6 +14,8 @@ namespace Quellenform\IconpackFontawesome\Configuration;
  */
 
 use Quellenform\Iconpack\IconpackConfigurationInterface;
+use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
  * Class IconpackFontawesomeConfiguration
@@ -21,7 +23,7 @@ use Quellenform\Iconpack\IconpackConfigurationInterface;
 class IconpackFontawesomeConfiguration implements IconpackConfigurationInterface
 {
     /**
-     * Replace category labels with translated text from XLIFF.
+     * Replace category labels with translated text from XLIFF and override styles from extConf.
      *
      * @param string $iconpackIdentifier
      * @param array $configuration
@@ -35,6 +37,12 @@ class IconpackFontawesomeConfiguration implements IconpackConfigurationInterface
                 $configuration['categories'][$key]['label']
                     = 'LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:cat.' . $key;
             }
+        }
+        /** @var ExtensionConfiguration $extConf */
+        $extConf = GeneralUtility::makeInstance(ExtensionConfiguration::class);
+        $stylesEnabled = (string) trim($extConf->get('iconpack_fontawesome', 'stylesEnabled'));
+        if (!empty($stylesEnabled)) {
+            $configuration['stylesEnabled'] = $stylesEnabled;
         }
         return $configuration;
     }

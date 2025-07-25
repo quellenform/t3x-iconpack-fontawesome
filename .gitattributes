@@ -1,18 +1,34 @@
+*.pug export-ignore
+/.editorconfig export-ignore
+/.eslintrc.json export-ignore
 /.gitattributes export-ignore
+/.github export-ignore
+/.gitignore export-ignore
+/.php-cs-fixer.php export-ignore
+/.phplint.yml export-ignore
+/.vscode export-ignore
+/Build/ export-ignore
+/crowdin.yml export-ignore
+/phpcs.xml export-ignore
+/phpstan.neon export-ignore
+/phpunit.xml export-ignore
+/Tests/ export-ignore
 
 # Enforce checkout with linux lf consistent over all platforms
 *.css text eol=lf
-*.less text eol=lf
-*.scss text eol=lf
+*.html text eol=lf
 *.js text eol=lf
 *.json text eol=lf
-*.rst text eol=lf
 *.md text eol=lf
-*.yml text eol=lf
-*.yaml text eol=lf
-*.ts text eol=lf
-*.typoscript text eol=lf
-*.xlf text eol=lf
+*.php text eol=lf
+*.pug text eol=lf
+*.rst text eol=lf
+*.scss text eol=lf
 *.sh text eol=lf
 *.svg text eol=lf
+*.ts text eol=lf
 *.txt text eol=lf
+*.typoscript text eol=lf
+*.xlf text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf

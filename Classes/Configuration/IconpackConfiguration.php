@@ -18,9 +18,9 @@ use TYPO3\CMS\Core\Configuration\ExtensionConfiguration;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
- * Class IconpackFontawesomeConfiguration
+ * Class IconpackConfiguration
  */
-class IconpackFontawesomeConfiguration implements IconpackConfigurationInterface
+class IconpackConfiguration implements IconpackConfigurationInterface
 {
     /**
      * Replace category labels with translated text from XLIFF and override styles from extConf.

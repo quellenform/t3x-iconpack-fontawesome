@@ -12,6 +12,6 @@ if (\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('iconpack')) {
     )->registerIconpack(
         'EXT:iconpack_fontawesome/Configuration/Iconpack/FontAwesome' . $extConf['version'] . '.yaml',
         $extConf['configFile'],
-        \Quellenform\IconpackFontawesome\Configuration\IconpackFontawesomeConfiguration::class
+        \Quellenform\IconpackFontawesome\Configuration\IconpackConfiguration::class
     );
 }

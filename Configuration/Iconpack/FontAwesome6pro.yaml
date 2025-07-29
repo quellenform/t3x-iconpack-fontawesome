@@ -1,15 +1,11 @@
+
 # Example configuration for the Pro version of Font Awesome (customize it according to your requirements)
 #
 # Important:
-# Extract the files from "fontawesome-pro-6.7.2-web.zip" into your own extension (for example EXT:iconpack_fontawesome_pro),
-# adjust the paths of this configuration file accordingly, and enter the path to this configuration file in the
-# extension settings of EXT:iconpack_fontawesome:
-#
-# You can also save the icons directly in fileadmin, but unfortunately these are then not available in the RTE.
-#
-# The path to the configuration file in *Settings > Extension Configuration > iconpack_fontawesome > Configuration File*
-# is then entered as follows, for example: "EXT:iconpack_fontawesome_pro/Configuration/Iconpack/FontAwesome6pro.yaml"
-#
+# Extract the files from "fontawesome-pro-X.X.X-web.zip" into your own extension (e.g., EXT:iconpack_fontawesome_pro),
+# or directly into the fileadmin folder. Use this configuration file and adjust the paths accordingly. Then enter the
+# path to this configuration file in the extension settings: *Settings > Extension Configuration > iconpack_fontawesome > Configuration File*
+# For example: "EXT:iconpack_fontawesome_pro/Configuration/Iconpack/FontAwesome6pro.yaml" or "fileadmin/FontAwesome6pro.yaml"
 
 iconpack:
   title: "Font Awesome Icons 6 Pro"

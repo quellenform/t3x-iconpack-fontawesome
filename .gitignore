@@ -1,5 +1,6 @@
 .cache
 *.sh
+*.zip
 /.Build/*
 /.php-cs-fixer.cache
 /.vscode

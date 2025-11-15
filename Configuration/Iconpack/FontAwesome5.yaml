@@ -8,7 +8,6 @@ iconpack:
   stylesEnabled: "solid,regular,brands"
 
   renderTypes:
-
     _default:
       _default:
         prefix: "fa-"

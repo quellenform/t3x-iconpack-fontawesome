@@ -1,6 +1,7 @@
 iconpack:
   title: "Font Awesome Icons 6"
   key: "fa6"
+  replaces: "fa5"
   version: "6.7.2"
   url: "https://fontawesome.com/"
   logo: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-6.7.2-web/Logo.svg"

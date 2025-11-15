@@ -1,0 +1,164 @@
+# Example configuration for the Pro version of Font Awesome (customize it according to your requirements)
+#
+# Important:
+# Extract the files from "fontawesome-pro-X.X.X-web.zip" into your own extension (e.g., EXT:iconpack_fontawesome_pro),
+# or directly into the fileadmin folder. Use this configuration file and adjust the paths accordingly. Then enter the
+# path to this configuration file in the extension settings: *Settings > Extension Configuration > iconpack_fontawesome > Configuration File*
+# For example: "EXT:iconpack_fontawesome_pro/Configuration/Iconpack/FontAwesomePro.yaml" or "fileadmin/FontAwesomePro.yaml"
+
+iconpack:
+  title: "Font Awesome Icons 7 Pro"
+  key: "fa7"
+  replaces: "fa5,fa6"
+  version: "7.1.0"
+  url: "https://fontawesome.com/"
+  logo: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/Logo.svg"
+
+  stylesEnabled: "solid,regular,light,thin,duotone,brands,sharp-solid,sharp-regular,sharp-light,sharp-thin"
+
+  renderTypes:
+    _default:
+      _default:
+        prefix: "fa-"
+      solid:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.solid"
+        attributes:
+          class: "fas"
+      regular:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.regular"
+        attributes:
+          class: "far"
+      light:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.light"
+        attributes:
+          class: "fal"
+      thin:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.thin"
+        attributes:
+          class: "fat"
+      duotone:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.duotone"
+        attributes:
+          class: "fad"
+      brands:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.brands"
+        attributes:
+          class: "fab"
+      sharp-solid:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.sharp-solid"
+        attributes:
+          class: "fass"
+      sharp-regular:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.sharp-regular"
+        attributes:
+          class: "fasr"
+      sharp-light:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.sharp-light"
+        attributes:
+          class: "fasl"
+      sharp-thin:
+        label: "LLL:EXT:iconpack_fontawesome/Resources/Private/Language/locallang_be.xlf:style.sharp-thin"
+        attributes:
+          class: "fast"
+
+    webfont:
+      _default:
+        css:
+          shared: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/css/fontawesome.min.css"
+      solid:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/css/solid.min.css"
+      regular:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/css/regular.min.css"
+      light:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/css/light.min.css"
+      thin:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/css/thin.min.css"
+      duotone:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/css/duotone.min.css"
+      brands:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/css/brands.min.css"
+      sharp-solid:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/css/sharp-solid.min.css"
+      sharp-regular:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/css/sharp-regular.min.css"
+      sharp-light:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/css/sharp-light.min.css"
+      sharp-thin:
+        css: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/css/sharp-thin.min.css"
+
+    svg:
+      solid:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/solid/"
+      regular:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/regular/"
+      light:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/light/"
+      thin:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/thin/"
+      duotone:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/duotone/"
+      brands:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/brands/"
+      sharp-solid:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/sharp-solid/"
+      sharp-regular:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/sharp-regular/"
+      sharp-light:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/sharp-light/"
+      sharp-thin:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/sharp-thin/"
+
+    svgSprite:
+      _default:
+        attributes:
+          fill: "currentColor"
+      solid:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/sprites/solid.svg"
+      regular:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/sprites/regular.svg"
+      light:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/sprites/light.svg"
+      thin:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/sprites/thin.svg"
+      duotone:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/sprites/duotone.svg"
+      brands:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/sprites/brands.svg"
+      sharp-solid:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/sprites/sharp-solid.svg"
+      sharp-regular:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/sprites/sharp-regular.svg"
+      sharp-light:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/sprites/sharp-light.svg"
+      sharp-thin:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/sprites/sharp-thin.svg"
+
+    svgInline:
+      _default:
+        attributes:
+          fill: "currentColor"
+      solid:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/solid/"
+      regular:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/regular/"
+      light:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/light/"
+      thin:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/thin/"
+      duotone:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/duotone/"
+      brands:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/brands/"
+      sharp-regular:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/sharp-regular/"
+      sharp-light:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/sharp-light/"
+      sharp-solid:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/sharp-solid/"
+      sharp-thin:
+        source: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/svgs/sharp-thin/"
+
+  # Disable default categories, because not all icons are listed there (brands!)
+  #categories: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/metadata/categories.yml"
+
+  icons: "EXT:iconpack_fontawesome_pro/Resources/Public/Vendor/fontawesome-pro-7.1.0-web/metadata/icons.yml"

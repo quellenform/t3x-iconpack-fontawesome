@@ -13,6 +13,7 @@ This Extension registers an Iconpack-Provider for EXT:iconpack which allows you 
 The following versions are included in this extension, and can be selected via the TYPO3 backend:
 - *5.14.4-free*
 - *6.7.2-free*
+- *7.1.0-free*
 
 
 ## Installation/Configuration
@@ -20,6 +21,18 @@ The following versions are included in this extension, and can be selected via t
 1. Install EXT:iconpack from TER/git or with composer
 2. Install this Extension from TER/git or with composer
 3. Customize configuration (Optional)
+
+
+## Upgrade
+
+If you are currently using version 6 and would like to switch to version 7, simply change the version in
+*Settings > Extension Configuration > Configure extensions...* and switch the version to be used to "FontAwesome 7.x.x.".
+
+> **Note**
+> Please note that all icons previously used in version 6 can be displayed in version 7, and that translation occurs automatically
+> during rendering. No data in the database is changed in the process. Only when you add new icons or change existing ones will new
+> icons with the identifier “fa7” be created. These are then no longer backward compatible, so I advise against a subsequent
+> downgrade if you have already created icons with the new version.
 
 
 ## Disclaimer
@@ -39,6 +52,15 @@ This extension contains an icon set of another author. Please note the license t
 | :------------- | :-------------------------------------------------------- |
 | Type           | SVG, SVG-Sprite, Webfont                                  |
 | Latest version | *6.7.2-free*                                              |
+| Source         | https://fontawesome.com                                   |
+| Icons license  | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Font license   | SIL OFL 1.1 License                                       |
+| Author         | Fonticons, Inc.                                           |
+
+| Name           | *Font Awesome Free 7*                                     |
+| :------------- | :-------------------------------------------------------- |
+| Type           | SVG, SVG-Sprite, Webfont                                  |
+| Latest version | *7.1.0-free*                                              |
 | Source         | https://fontawesome.com                                   |
 | Icons license  | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Font license   | SIL OFL 1.1 License                                       |

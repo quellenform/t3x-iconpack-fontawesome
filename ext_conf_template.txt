@@ -1,6 +1,6 @@
 # cat=basic/1; type=string; label=LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:extConf.configFile
 configFile =
-# cat=basic/2; type=options[FontAwesome 6.7.2=6, FontAwesome 5.15.4=5]; label=Version
-version = 6
+# cat=basic/2; type=options[FontAwesome 7.1.0=7, FontAwesome 6.7.2=6, FontAwesome 5.15.4=5]; label=Version
+version = 7
 # cat=basic/3; type=string; label=LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:extConf.stylesEnabled
 stylesEnabled =

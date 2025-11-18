@@ -12,7 +12,7 @@ iconpack:
   replaces: "fa5,fa6"
   version: "7.1.0"
   url: "https://fontawesome.com/"
-  logo: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/Logo.svg"
+  logo: "EXT:iconpack_fontawesome/Resources/Public/Vendor/Logo.svg"
 
   stylesEnabled: "solid,regular,light,thin,duotone,brands,sharp-solid,sharp-regular,sharp-light,sharp-thin"
 

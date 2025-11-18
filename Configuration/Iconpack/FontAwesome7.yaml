@@ -4,7 +4,7 @@ iconpack:
   replaces: "fa5,fa6"
   version: "7.1.0"
   url: "https://fontawesome.com/"
-  logo: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/Logo.svg"
+  logo: "EXT:iconpack_fontawesome/Resources/Public/Vendor/Logo.svg"
 
   stylesEnabled: "solid,regular,brands"
 
@@ -29,45 +29,45 @@ iconpack:
     webfont:
       _default:
         css:
-          shared: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/css/fontawesome.min.css"
+          shared: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/css/fontawesome.min.css"
       solid:
-        css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/css/solid.min.css"
+        css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/css/solid.min.css"
       regular:
-        css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/css/regular.min.css"
+        css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/css/regular.min.css"
       brands:
-        css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/css/brands.min.css"
+        css: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/css/brands.min.css"
 
     svg:
       solid:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/svgs/solid/"
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/svgs/solid/"
       regular:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/svgs/regular/"
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/svgs/regular/"
       brands:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/svgs/brands/"
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/svgs/brands/"
 
     svgSprite:
       _default:
         attributes:
           fill: "currentColor"
       solid:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/sprites/solid.svg"
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/sprites/solid.svg"
       regular:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/sprites/regular.svg"
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/sprites/regular.svg"
       brands:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/sprites/brands.svg"
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/sprites/brands.svg"
 
     svgInline:
       _default:
         attributes:
           fill: "currentColor"
       solid:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/svgs/solid/"
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/svgs/solid/"
       regular:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/svgs/regular/"
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/svgs/regular/"
       brands:
-        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/svgs/brands/"
+        source: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/svgs/brands/"
 
   # Disable default categories, because not all icons are listed there (brands!)
-  #categories: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/metadata/categories.yml"
+  #categories: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/metadata/categories.yml"
 
-  icons: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fontawesome-free-7.1.0-web/metadata/icons.yml"
+  icons: "EXT:iconpack_fontawesome/Resources/Public/Vendor/fa7/metadata/icons.yml"

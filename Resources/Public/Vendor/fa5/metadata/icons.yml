@@ -2119,8 +2119,6 @@ font-awesome-flag:
     - brands
 font-awesome-logo-full:
   label: Font Awesome Full Logo
-  ligatures:
-  private: true
   styles:
     - regular
     - solid

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:iconpack_fontawesome/Resources/Private/Language/locallang.xlf" date="2024-03-13T13:44:00Z" product-name="iconpack_fontawesome" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="style.solid" resname="style.solid" approved="yes">
+        <source>Solid</source>
+        <target state="final">Solid</target>
+      </trans-unit>
+      <trans-unit id="style.regular" resname="style.regular" approved="yes">
+        <source>Regular</source>
+        <target state="final">Regular</target>
+      </trans-unit>
+      <trans-unit id="style.light" resname="style.light" approved="yes">
+        <source>Light</source>
+        <target state="final">Light</target>
+      </trans-unit>
+      <trans-unit id="style.thin" resname="style.thin">
+        <source>Thin</source>
+        <target state="needs-translation">Thin</target>
+      </trans-unit>
+      <trans-unit id="style.duotone" resname="style.duotone" approved="yes">
+        <source>Duotone</source>
+        <target state="final">Duotone</target>
+      </trans-unit>
+      <trans-unit id="style.brands" resname="style.brands" approved="yes">
+        <source>Brands</source>
+        <target state="final">Brands</target>
+      </trans-unit>
+      <trans-unit id="style.sharp-solid" resname="style.sharp-solid">
+        <source>Sharp Solid</source>
+        <target state="needs-translation">Sharp Solid</target>
+      </trans-unit>
+      <trans-unit id="style.sharp-regular" resname="style.sharp-regular">
+        <source>Sharp Regular</source>
+        <target state="needs-translation">Sharp Regular</target>
+      </trans-unit>
+      <trans-unit id="style.sharp-light" resname="style.sharp-light">
+        <source>Sharp Light</source>
+        <target state="needs-translation">Sharp Light</target>
+      </trans-unit>
+      <trans-unit id="style.sharp-thin" resname="style.sharp-thin">
+        <source>Sharp Thin</source>
+        <target state="needs-translation">Sharp Thin</target>
+      </trans-unit>
+      <trans-unit id="cat.accessibility" resname="cat.accessibility" approved="yes">
+        <source>Accessibility</source>
+        <target state="final">Barrierefreiheit</target>
+      </trans-unit>
+      <trans-unit id="cat.alert" resname="cat.alert" approved="yes">
+        <source>Alert</source>
+        <target state="final">Hinweise</target>
+      </trans-unit>
+      <trans-unit id="cat.alphabet" resname="cat.alphabet" approved="yes">
+        <source>Alphabet</source>
+        <target state="final">Buchstaben</target>
+      </trans-unit>
+      <trans-unit id="cat.animals" resname="cat.animals" approved="yes">
+        <source>Animals</source>
+        <target state="final">Tiere</target>
+      </trans-unit>
+      <trans-unit id="cat.arrows" resname="cat.arrows" approved="yes">
+        <source>Arrows</source>
+        <target state="final">Pfeile</target>
+      </trans-unit>
+      <trans-unit id="cat.astronomy" resname="cat.astronomy" approved="yes">
+        <source>Astronomy</source>
+        <target state="final">Astronomie</target>
+      </trans-unit>
+      <trans-unit id="cat.audio-video" resname="cat.audio-video" approved="yes">
+        <source>Audio + Video</source>
+        <target state="final">Audio + Video</target>
+      </trans-unit>
+      <trans-unit id="cat.automotive" resname="cat.automotive" approved="yes">
+        <source>Automotive</source>
+        <target state="final">Automobile</target>
+      </trans-unit>
+      <trans-unit id="cat.autumn" resname="cat.autumn" approved="yes">
+        <source>Autumn</source>
+        <target state="final">Herbst</target>
+      </trans-unit>
+      <trans-unit id="cat.beverage" resname="cat.beverage" approved="yes">
+        <source>Beverage</source>
+        <target state="final">Getränke</target>
+      </trans-unit>
+      <trans-unit id="cat.buildings" resname="cat.buildings" approved="yes">
+        <source>Buildings</source>
+        <target state="final">Gebäude</target>
+      </trans-unit>
+      <trans-unit id="cat.business" resname="cat.business" approved="yes">
+        <source>Business</source>
+        <target state="final">Geschäftliches</target>
+      </trans-unit>
+      <trans-unit id="cat.camping" resname="cat.camping" approved="yes">
+        <source>Camping</source>
+        <target state="final">Camping</target>
+      </trans-unit>
+      <trans-unit id="cat.charity" resname="cat.charity" approved="yes">
+        <source>Charity</source>
+        <target state="final">Wohltätigkeit</target>
+      </trans-unit>
+      <trans-unit id="cat.charts-diagrams" resname="cat.charts-diagrams" approved="yes">
+        <source>Charts + Diagrams</source>
+        <target state="final">Diagramme</target>
+      </trans-unit>
+      <trans-unit id="cat.chat" resname="cat.chat" approved="yes">
+        <source>Chat</source>
+        <target state="final">Chat</target>
+      </trans-unit>
+      <trans-unit id="cat.chess" resname="cat.chess" approved="yes">
+        <source>Chess</source>
+        <target state="final">Schach</target>
+      </trans-unit>
+      <trans-unit id="cat.childhood" resname="cat.childhood" approved="yes">
+        <source>Childhood</source>
+        <target state="final">Kindheit</target>
+      </trans-unit>
+      <trans-unit id="cat.clothing" resname="cat.clothing" approved="yes">
+        <source>Clothing</source>
+        <target state="final">Bekleidung</target>
+      </trans-unit>
+      <trans-unit id="cat.clothing-fashion" resname="cat.clothing-fashion" approved="yes">
+        <source>Clothing + Fashion</source>
+        <target state="final">Kleidung + Mode</target>
+      </trans-unit>
+      <trans-unit id="cat.code" resname="cat.code" approved="yes">
+        <source>Code</source>
+        <target state="final">Quelltext</target>
+      </trans-unit>
+      <trans-unit id="cat.coding" resname="cat.coding" approved="yes">
+        <source>Coding</source>
+        <target state="final">Programmierung</target>
+      </trans-unit>
+      <trans-unit id="cat.communication" resname="cat.communication" approved="yes">
+        <source>Communication</source>
+        <target state="final">Kommunikation</target>
+      </trans-unit>
+      <trans-unit id="cat.computers" resname="cat.computers" approved="yes">
+        <source>Computers</source>
+        <target state="final">Computer</target>
+      </trans-unit>
+      <trans-unit id="cat.connectivity" resname="cat.connectivity" approved="yes">
+        <source>Connectivity</source>
+        <target state="final">Konnektivität</target>
+      </trans-unit>
+      <trans-unit id="cat.construction" resname="cat.construction" approved="yes">
+        <source>Construction</source>
+        <target state="final">Bauwesen</target>
+      </trans-unit>
+      <trans-unit id="cat.currency" resname="cat.currency" approved="yes">
+        <source>Currency</source>
+        <target state="final">Währung</target>
+      </trans-unit>
+      <trans-unit id="cat.date-time" resname="cat.date-time" approved="yes">
+        <source>Date + Time</source>
+        <target state="final">Datum + Uhrzeit</target>
+      </trans-unit>
+      <trans-unit id="cat.design" resname="cat.design" approved="yes">
+        <source>Design</source>
+        <target state="final">Gestaltung</target>
+      </trans-unit>
+      <trans-unit id="cat.devices-hardware" resname="cat.devices-hardware" approved="yes">
+        <source>Devices + Hardware</source>
+        <target state="final">Geräte + Hardware</target>
+      </trans-unit>
+      <trans-unit id="cat.disaster" resname="cat.disaster" approved="yes">
+        <source>Disaster + Crisis</source>
+        <target state="final">Katastrophe + Krise</target>
+      </trans-unit>
+      <trans-unit id="cat.editing" resname="cat.editing" approved="yes">
+        <source>Editing</source>
+        <target state="final">Bearbeitung</target>
+      </trans-unit>
+      <trans-unit id="cat.editors" resname="cat.editors" approved="yes">
+        <source>Editors</source>
+        <target state="final">Bearbeitung</target>
+      </trans-unit>
+      <trans-unit id="cat.education" resname="cat.education" approved="yes">
+        <source>Education</source>
+        <target state="final">Bildung</target>
+      </trans-unit>
+      <trans-unit id="cat.emoji" resname="cat.emoji" approved="yes">
+        <source>Emoji</source>
+        <target state="final">Emoji</target>
+      </trans-unit>
+      <trans-unit id="cat.energy" resname="cat.energy" approved="yes">
+        <source>Energy</source>
+        <target state="final">Energie</target>
+      </trans-unit>
+      <trans-unit id="cat.files" resname="cat.files" approved="yes">
+        <source>Files</source>
+        <target state="final">Dateien</target>
+      </trans-unit>
+      <trans-unit id="cat.film-video" resname="cat.film-video" approved="yes">
+        <source>Film + Video</source>
+        <target state="final">Film + Video</target>
+      </trans-unit>
+      <trans-unit id="cat.finance" resname="cat.finance" approved="yes">
+        <source>Finance</source>
+        <target state="final">Finanzen</target>
+      </trans-unit>
+      <trans-unit id="cat.fitness" resname="cat.fitness" approved="yes">
+        <source>Fitness</source>
+        <target state="final">Fitness</target>
+      </trans-unit>
+      <trans-unit id="cat.food" resname="cat.food" approved="yes">
+        <source>Food</source>
+        <target state="final">Lebensmittel</target>
+      </trans-unit>
+      <trans-unit id="cat.food-beverage" resname="cat.food-beverage" approved="yes">
+        <source>Food + Beverage</source>
+        <target state="final">Essen + Getränke</target>
+      </trans-unit>
+      <trans-unit id="cat.fruit-vegetable" resname="cat.fruit-vegetable" approved="yes">
+        <source>Fruit + Vegetable</source>
+        <target state="final">Obst + Gemüse</target>
+      </trans-unit>
+      <trans-unit id="cat.fruit-vegetables" resname="cat.fruit-vegetables" approved="yes">
+        <source>Fruit + Vegetable</source>
+        <target state="final">Obst + Gemüse</target>
+      </trans-unit>
+      <trans-unit id="cat.games" resname="cat.games" approved="yes">
+        <source>Games</source>
+        <target state="final">Spiele</target>
+      </trans-unit>
+      <trans-unit id="cat.gaming" resname="cat.gaming" approved="yes">
+        <source>Gaming</source>
+        <target state="final">Spiele</target>
+      </trans-unit>
+      <trans-unit id="cat.gaming-tabletop" resname="cat.gaming-tabletop" approved="yes">
+        <source>Gaming + Tabletop</source>
+        <target state="final">Spiele</target>
+      </trans-unit>
+      <trans-unit id="cat.gender" resname="cat.gender" approved="yes">
+        <source>Gender</source>
+        <target state="final">Geschlechter</target>
+      </trans-unit>
+      <trans-unit id="cat.halloween" resname="cat.halloween" approved="yes">
+        <source>Halloween</source>
+        <target state="final">Halloween</target>
+      </trans-unit>
+      <trans-unit id="cat.hands" resname="cat.hands" approved="yes">
+        <source>Hands</source>
+        <target state="final">Hände</target>
+      </trans-unit>
+      <trans-unit id="cat.health" resname="cat.health" approved="yes">
+        <source>Health</source>
+        <target state="final">Gesundheit</target>
+      </trans-unit>
+      <trans-unit id="cat.holiday" resname="cat.holiday" approved="yes">
+        <source>Holiday</source>
+        <target state="final">Feiertag</target>
+      </trans-unit>
+      <trans-unit id="cat.holidays" resname="cat.holidays" approved="yes">
+        <source>Holidays</source>
+        <target state="final">Feiertage</target>
+      </trans-unit>
+      <trans-unit id="cat.hotel" resname="cat.hotel" approved="yes">
+        <source>Hotel</source>
+        <target state="final">Hotel</target>
+      </trans-unit>
+      <trans-unit id="cat.household" resname="cat.household" approved="yes">
+        <source>Household</source>
+        <target state="final">Haushalt</target>
+      </trans-unit>
+      <trans-unit id="cat.humanitarian" resname="cat.humanitarian" approved="yes">
+        <source>Humanitarian</source>
+        <target state="final">Humanitäres</target>
+      </trans-unit>
+      <trans-unit id="cat.images" resname="cat.images" approved="yes">
+        <source>Images</source>
+        <target state="final">Bilder</target>
+      </trans-unit>
+      <trans-unit id="cat.interfaces" resname="cat.interfaces" approved="yes">
+        <source>Interfaces</source>
+        <target state="final">Schnittstellen</target>
+      </trans-unit>
+      <trans-unit id="cat.logistics" resname="cat.logistics" approved="yes">
+        <source>Logistics</source>
+        <target state="final">Logistik</target>
+      </trans-unit>
+      <trans-unit id="cat.maps" resname="cat.maps" approved="yes">
+        <source>Maps</source>
+        <target state="final">Karten</target>
+      </trans-unit>
+      <trans-unit id="cat.maritime" resname="cat.maritime" approved="yes">
+        <source>Maritime</source>
+        <target state="final">Seefahrt</target>
+      </trans-unit>
+      <trans-unit id="cat.marketing" resname="cat.marketing" approved="yes">
+        <source>Marketing</source>
+        <target state="final">Marketing</target>
+      </trans-unit>
+      <trans-unit id="cat.mathematics" resname="cat.mathematics" approved="yes">
+        <source>Mathematics</source>
+        <target state="final">Mathematik</target>
+      </trans-unit>
+      <trans-unit id="cat.media-playback" resname="cat.media-playback" approved="yes">
+        <source>Media Playback</source>
+        <target state="final">Medienwiedergabe</target>
+      </trans-unit>
+      <trans-unit id="cat.medical" resname="cat.medical" approved="yes">
+        <source>Medical</source>
+        <target state="final">Gesundheit</target>
+      </trans-unit>
+      <trans-unit id="cat.medical-health" resname="cat.medical-health" approved="yes">
+        <source>Medical + Health</source>
+        <target state="final">Medizin + Gesundheit</target>
+      </trans-unit>
+      <trans-unit id="cat.money" resname="cat.money" approved="yes">
+        <source>Money</source>
+        <target state="final">Geld</target>
+      </trans-unit>
+      <trans-unit id="cat.moving" resname="cat.moving" approved="yes">
+        <source>Moving</source>
+        <target state="final">Umzug</target>
+      </trans-unit>
+      <trans-unit id="cat.music" resname="cat.music" approved="yes">
+        <source>Music</source>
+        <target state="final">Musik</target>
+      </trans-unit>
+      <trans-unit id="cat.music-audio" resname="cat.music-audio" approved="yes">
+        <source>Music + Audio</source>
+        <target state="final">Musik + Audio</target>
+      </trans-unit>
+      <trans-unit id="cat.nature" resname="cat.nature" approved="yes">
+        <source>Nature</source>
+        <target state="final">Natur</target>
+      </trans-unit>
+      <trans-unit id="cat.numbers" resname="cat.numbers" approved="yes">
+        <source>Numbers</source>
+        <target state="final">Zahlen</target>
+      </trans-unit>
+      <trans-unit id="cat.objects" resname="cat.objects" approved="yes">
+        <source>Objects</source>
+        <target state="final">Objekte</target>
+      </trans-unit>
+      <trans-unit id="cat.payments-shopping" resname="cat.payments-shopping" approved="yes">
+        <source>Payments + Shopping</source>
+        <target state="final">Zahlungen + Shopping</target>
+      </trans-unit>
+      <trans-unit id="cat.pharmacy" resname="cat.pharmacy" approved="yes">
+        <source>Pharmacy</source>
+        <target state="final">Apotheke</target>
+      </trans-unit>
+      <trans-unit id="cat.photos-images" resname="cat.photos-images" approved="yes">
+        <source>Photos + Images</source>
+        <target state="final">Fotos + Bilder</target>
+      </trans-unit>
+      <trans-unit id="cat.political" resname="cat.political" approved="yes">
+        <source>Political</source>
+        <target state="final">Politik</target>
+      </trans-unit>
+      <trans-unit id="cat.punctuation-symbols" resname="cat.punctuation-symbols" approved="yes">
+        <source>Punctuation + Symbols</source>
+        <target state="final">Satzzeichen + Symbole</target>
+      </trans-unit>
+      <trans-unit id="cat.religion" resname="cat.religion" approved="yes">
+        <source>Religion</source>
+        <target state="final">Religion</target>
+      </trans-unit>
+      <trans-unit id="cat.science" resname="cat.science" approved="yes">
+        <source>Science</source>
+        <target state="final">Wissenschaft</target>
+      </trans-unit>
+      <trans-unit id="cat.science-fiction" resname="cat.science-fiction" approved="yes">
+        <source>Science Fiction</source>
+        <target state="final">Science Fiction</target>
+      </trans-unit>
+      <trans-unit id="cat.security" resname="cat.security" approved="yes">
+        <source>Security</source>
+        <target state="final">Sicherheit</target>
+      </trans-unit>
+      <trans-unit id="cat.shapes" resname="cat.shapes" approved="yes">
+        <source>Shapes</source>
+        <target state="final">Formen</target>
+      </trans-unit>
+      <trans-unit id="cat.shopping" resname="cat.shopping" approved="yes">
+        <source>Shopping</source>
+        <target state="final">Einkaufen</target>
+      </trans-unit>
+      <trans-unit id="cat.social" resname="cat.social" approved="yes">
+        <source>Social</source>
+        <target state="final">Soziales</target>
+      </trans-unit>
+      <trans-unit id="cat.spinners" resname="cat.spinners" approved="yes">
+        <source>Spinners</source>
+        <target state="final">Spinner</target>
+      </trans-unit>
+      <trans-unit id="cat.sports" resname="cat.sports" approved="yes">
+        <source>Sports</source>
+        <target state="final">Sport</target>
+      </trans-unit>
+      <trans-unit id="cat.sports-fitness" resname="cat.sports-fitness" approved="yes">
+        <source>Sports + Fitness</source>
+        <target state="final">Sport + Fitness</target>
+      </trans-unit>
+      <trans-unit id="cat.spring" resname="cat.spring" approved="yes">
+        <source>Spring</source>
+        <target state="final">Frühling</target>
+      </trans-unit>
+      <trans-unit id="cat.status" resname="cat.status" approved="yes">
+        <source>Status</source>
+        <target state="final">Status</target>
+      </trans-unit>
+      <trans-unit id="cat.summer" resname="cat.summer" approved="yes">
+        <source>Summer</source>
+        <target state="final">Sommer</target>
+      </trans-unit>
+      <trans-unit id="cat.text-formatting" resname="cat.text-formatting" approved="yes">
+        <source>Text Formatting</source>
+        <target state="final">Textformatierung</target>
+      </trans-unit>
+      <trans-unit id="cat.time" resname="cat.time" approved="yes">
+        <source>Time</source>
+        <target state="final">Zeit</target>
+      </trans-unit>
+      <trans-unit id="cat.toggle" resname="cat.toggle" approved="yes">
+        <source>Toggle</source>
+        <target state="final">An-/Ausschalten</target>
+      </trans-unit>
+      <trans-unit id="cat.transportation" resname="cat.transportation" approved="yes">
+        <source>Transportation</source>
+        <target state="final">Mobilität</target>
+      </trans-unit>
+      <trans-unit id="cat.travel" resname="cat.travel" approved="yes">
+        <source>Travel</source>
+        <target state="final">Reisen</target>
+      </trans-unit>
+      <trans-unit id="cat.travel-hotel" resname="cat.travel-hotel" approved="yes">
+        <source>Travel + Hotel</source>
+        <target state="final">Reise + Hotel</target>
+      </trans-unit>
+      <trans-unit id="cat.users-people" resname="cat.users-people" approved="yes">
+        <source>Users + People</source>
+        <target state="final">Benutzer + Personen</target>
+      </trans-unit>
+      <trans-unit id="cat.vehicles" resname="cat.vehicles" approved="yes">
+        <source>Vehicles</source>
+        <target state="final">Fahrzeuge</target>
+      </trans-unit>
+      <trans-unit id="cat.weather" resname="cat.weather" approved="yes">
+        <source>Weather</source>
+        <target state="final">Wetter</target>
+      </trans-unit>
+      <trans-unit id="cat.winter" resname="cat.winter" approved="yes">
+        <source>Winter</source>
+        <target state="final">Winter</target>
+      </trans-unit>
+      <trans-unit id="cat.writing" resname="cat.writing" approved="yes">
+        <source>Writing</source>
+        <target state="final">Schreiben</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
